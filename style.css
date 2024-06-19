@@ -1,0 +1,93 @@
+body{
+    
+    background-image: url(fund.jpg);
+}
+
+main{
+    max-width: 112.5em;
+    display: grid;
+    grid-template-columns: 8fr 8fr 8fr ;
+    margin: 5em 2.5em 0.625em 1.875em;
+    gap:0.094em;
+   
+}
+
+h1{
+    font-family:fantasy;
+    font-size: 2em;
+    text-align: center;
+    padding: 1em;
+}
+
+section{
+
+    display:block;
+    max-width: 32.25em;
+    background-color: rgb(241, 243, 243);
+    border-radius: 0.938em;
+    box-shadow: 0.625em 0.625em 0.938em 0.938em black;
+    margin: auto;
+}
+
+label{
+ 
+    font-family:fantasy;
+    font-size: 1.5em;
+    margin-left: 2.6em;
+    
+}
+
+input{
+    
+    border: solid black;
+    font-family:fantasy;
+    text-align: center;
+    width: 2.5em;
+    height: 2em;
+    font-size: 1.5em;
+    margin: 0.5em 1em 0.5em 1em;
+}
+
+button{
+
+    margin: 1em 1em 1em 3.5em;
+    background: #0d0e0e;
+    font-family:fantasy;
+    font-size: 1.25em;
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 1.25em;
+    box-shadow: 0.313em 0.313em 0.313em #eee;
+    text-shadow: none;
+    width: 12.5em;
+    height: 3.125em;
+}
+
+
+button:hover {
+
+    background: #016bbc55;
+    color: #fff;
+    border: 0.063em solid #eee;
+    border-radius: 1.25em;
+    box-shadow: 0.313em 0.313em 0.313em  #eee;
+    text-shadow: none;
+    }
+
+    p{
+
+        font-family:fantasy;
+        font-size: 1.5em;
+        text-align: center;
+        padding-bottom: 1em;
+    }
+
+    @media (min-width: 15.563em) and (max-width: 30em){
+
+body{
+     width: 30%;
+     }
+        main {
+            width: 20%;
+        }  
+    }
